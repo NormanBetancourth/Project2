@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rebec/Desktop/Project/Project2/ArrayTemplate.cpp
+ArrayTemplate.h
+C:/Users/rebec/Desktop/Project/Project2/ArrayTemplate.h
+
+C:/Users/rebec/Desktop/Project/Project2/ArrayTemplate.h
+iostream
+-
+sstream
+-
+
+C:/Users/rebec/Desktop/Project/Project2/Patient.h
+iostream
+-
+sstream
+-
+
+C:/Users/rebec/Desktop/Project/Project2/main.cpp
+ArrayTemplate.cpp
+C:/Users/rebec/Desktop/Project/Project2/ArrayTemplate.cpp
+Patient.h
+C:/Users/rebec/Desktop/Project/Project2/Patient.h
+

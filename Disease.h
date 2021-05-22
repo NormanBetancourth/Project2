@@ -11,15 +11,15 @@ using namespace std;
 class Disease {
 private:
     string name;
-    char *ADNsequence;
+    string ADNsequence;
 public:
-    Disease(const string &, char *);
+    Disease(const string & = "Undefined", const string & = "Undefined");
     virtual ~Disease();
 
     const string &getName() const;
-    char *getAdNsequence() const;
+    const string &getAdNsequence() const;
     void setName(const string &);
-    void setAdNsequence(char *);
+    void setAdNsequence(const string &);
 
     string toString() const;
 
